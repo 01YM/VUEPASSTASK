@@ -3,15 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "npm-run-all type-check build-only",
-    "preview": "vite preview",
-    "build-only": "vite build",
-    "type-check": "npx vue-tsc --build --force",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "npm-run-all type-check build-only",
+  "preview": "vite preview",
+  "build-only": "vite build",
+  "type-check": "npx vue-tsc --build --force",
+  "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+  "format": "prettier --write src/"
+},
   "dependencies": {
     "vue": "^3.4.29"
   },
